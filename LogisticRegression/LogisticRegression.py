@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
-from matplotlib import pyplot as plt
-plt.rcParams['font.sans-serif']=['FangSong']
+import utils
 
 
 def sigmoid(z):
@@ -45,14 +44,6 @@ def predict(theta, X):
     return predictions
 
 
-def plot_loss_history(J_history):
-    plt.plot(J_history)
-    plt.title('损失函数收敛情况')
-    plt.xlabel('迭代次数')
-    plt.ylabel('损失')
-    plt.show()
-
-
 if __name__ == '__main__':
     data_path = "data.csv"
     data = pd.read_csv(data_path,encoding='gbk')
@@ -62,9 +53,16 @@ if __name__ == '__main__':
     X = data.iloc[:, :2].values
     y = data.iloc[:, 2].values.astype(float)
 
+    utils.plot_scatter_diagram(X,y)
+
     X = (X - np.mean(X, axis=0)) / np.std(X, axis=0)
     X = np.hstack((np.ones((X.shape[0], 1)), X))
+    
 
     theta, J_history = train(X, y, alpha=0.1, num_iters=200)
 
-    plot_loss_history(J_history)
+    utils.plot_decision_boundary(X, y, theta)
+
+    utils.plot_loss_history(J_history)
+
+
