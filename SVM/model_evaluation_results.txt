@@ -1,0 +1,112 @@
+
+鸢尾花 - 线性核SVM 评估结果:
+╒══════════════════════╤══════════╕
+│ 鸢尾花 - 线性核SVM   │   平均值 │
+╞══════════════════════╪══════════╡
+│ 准确度               │ 0.98     │
+├──────────────────────┼──────────┤
+│ 精确度               │ 0.981818 │
+├──────────────────────┼──────────┤
+│ 召回率               │ 0.98     │
+├──────────────────────┼──────────┤
+│ F1分数               │ 0.97995  │
+╘══════════════════════╧══════════╛
+
+
+鸢尾花 - 高斯核SVM 评估结果:
+╒══════════════════════╤══════════╕
+│ 鸢尾花 - 高斯核SVM   │   平均值 │
+╞══════════════════════╪══════════╡
+│ 准确度               │ 0.966667 │
+├──────────────────────┼──────────┤
+│ 精确度               │ 0.968485 │
+├──────────────────────┼──────────┤
+│ 召回率               │ 0.966667 │
+├──────────────────────┼──────────┤
+│ F1分数               │ 0.966617 │
+╘══════════════════════╧══════════╛
+
+
+鸢尾花 - BP神经网络 评估结果:
+╒═══════════════════════╤══════════╕
+│ 鸢尾花 - BP神经网络   │   平均值 │
+╞═══════════════════════╪══════════╡
+│ 准确度                │ 0.973333 │
+├───────────────────────┼──────────┤
+│ 精确度                │ 0.975556 │
+├───────────────────────┼──────────┤
+│ 召回率                │ 0.973333 │
+├───────────────────────┼──────────┤
+│ F1分数                │ 0.973199 │
+╘═══════════════════════╧══════════╛
+
+
+鸢尾花 - 决策树 评估结果:
+╒═══════════════════╤══════════╕
+│ 鸢尾花 - 决策树   │   平均值 │
+╞═══════════════════╪══════════╡
+│ 准确度            │ 0.953333 │
+├───────────────────┼──────────┤
+│ 精确度            │ 0.955017 │
+├───────────────────┼──────────┤
+│ 召回率            │ 0.953333 │
+├───────────────────┼──────────┤
+│ F1分数            │ 0.95325  │
+╘═══════════════════╧══════════╛
+
+
+乳腺癌 - 线性核SVM 评估结果:
+╒══════════════════════╤══════════╕
+│ 乳腺癌 - 线性核SVM   │   平均值 │
+╞══════════════════════╪══════════╡
+│ 准确度               │ 0.945536 │
+├──────────────────────┼──────────┤
+│ 精确度               │ 0.946936 │
+├──────────────────────┼──────────┤
+│ 召回率               │ 0.93765  │
+├──────────────────────┼──────────┤
+│ F1分数               │ 0.941132 │
+╘══════════════════════╧══════════╛
+
+
+乳腺癌 - 高斯核SVM 评估结果:
+╒══════════════════════╤══════════╕
+│ 乳腺癌 - 高斯核SVM   │   平均值 │
+╞══════════════════════╪══════════╡
+│ 准确度               │ 0.912172 │
+├──────────────────────┼──────────┤
+│ 精确度               │ 0.926604 │
+├──────────────────────┼──────────┤
+│ 召回率               │ 0.889239 │
+├──────────────────────┼──────────┤
+│ F1分数               │ 0.90123  │
+╘══════════════════════╧══════════╛
+
+
+乳腺癌 - BP神经网络 评估结果:
+╒═══════════════════════╤══════════╕
+│ 乳腺癌 - BP神经网络   │   平均值 │
+╞═══════════════════════╪══════════╡
+│ 准确度                │ 0.922621 │
+├───────────────────────┼──────────┤
+│ 精确度                │ 0.927017 │
+├───────────────────────┼──────────┤
+│ 召回率                │ 0.908623 │
+├───────────────────────┼──────────┤
+│ F1分数                │ 0.915574 │
+╘═══════════════════════╧══════════╛
+
+
+乳腺癌 - 决策树 评估结果:
+╒═══════════════════╤══════════╕
+│ 乳腺癌 - 决策树   │   平均值 │
+╞═══════════════════╪══════════╡
+│ 准确度            │ 0.920866 │
+├───────────────────┼──────────┤
+│ 精确度            │ 0.917679 │
+├───────────────────┼──────────┤
+│ 召回率            │ 0.918703 │
+├───────────────────┼──────────┤
+│ F1分数            │ 0.91607  │
+╘═══════════════════╧══════════╛
+
