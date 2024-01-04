@@ -23,7 +23,7 @@ def print_model_evaluation(file, model_name, scores):
     print(result_str)
     
     # 将结果写入文件
-    with open(file, 'a') as f:
+    with open(file, 'a', encoding='utf-8') as f:
         f.write(f"\n{model_name} 评估结果:\n")
         f.write(result_str)
         f.write("\n\n")
